@@ -1,0 +1,5 @@
+# ninja log v5
+0	8854	1685623573344225000	/media/eason/edge/NeRF/INSTA-pytorch/gridencoder/build/temp.linux-x86_64-cpython-39/media/eason/edge/NeRF/INSTA-pytorch/gridencoder/src/bindings.o	5a7fdaf158ace7b7
+0	48790	1685623613276356100	/media/eason/edge/NeRF/INSTA-pytorch/gridencoder/build/temp.linux-x86_64-cpython-39/media/eason/edge/NeRF/INSTA-pytorch/gridencoder/src/gridencoder.o	8a33baa6da2e9fdd
+2	6669	1686202600083422100	/media/eason/edge/NeRF/IMavatar/code/gridencoder/build/temp.linux-x86_64-cpython-39/media/eason/edge/NeRF/IMavatar/code/gridencoder/src/bindings.o	c5d6208242e59b2d
+2	52071	1686202645482160700	/media/eason/edge/NeRF/IMavatar/code/gridencoder/build/temp.linux-x86_64-cpython-39/media/eason/edge/NeRF/IMavatar/code/gridencoder/src/gridencoder.o	4478d7f49728596

@@ -1,0 +1,180 @@
+shell command : scripts/exp_runner.py --conf ./confs/IMavatar_supervised.conf
+Loading data ...
+Finish loading data ...
+Using /home/eason/.cache/torch_extensions/py39_cu116 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/eason/.cache/torch_extensions/py39_cu116/render_utils_cuda/build.ninja...
+Building extension module render_utils_cuda...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module render_utils_cuda...
+Using /home/eason/.cache/torch_extensions/py39_cu116 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/eason/.cache/torch_extensions/py39_cu116/total_variation_cuda/build.ninja...
+Building extension module total_variation_cuda...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module total_variation_cuda...
+creating the FLAME Decoder
+voxel_size       tensor(0.0408, device='cuda:0')
+- - - - - - - - - - init smooth conv with ksize=5 and sigma=1 - - - - - - - - - -
+deformer creation
+Finish init 
+1
+2
+3
+4
+5
+6
+7
+7.5
+8
+9
+  cam_pose shape torch.Size([1, 4, 4])
+---------------------ray_tracer
+Time taken for get_sphere_intersection:  0.0012545585632324219
+Time taken for sphere_tracing:  0.0029768943786621094
+Time taken for 初始化采样点:  0.0009753704071044922
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+Time taken for 处理非收敛光线:  35.92872762680054
+Time taken for 处理最小SDF值:  0.0033082962036132812
+Time taken for ray_sampler:  35.93304467201233
+Time taken for ray_tracer:  35.937997817993164
+pnts_c shape after deformer :  torch.Size([30000, 3, 3])
+sdf shape: torch.Size([30000, 3])
+mask shape:  torch.Size([30000, 3])
+index shape:  torch.Size([30000])
+Time taken for query_sdf:  0.28232550621032715
+Time taken for deformer_network.query_weights:  0.00024366378784179688
+Time taken for get_rbg_value:  1.9865798950195312
+Time taken for knn_points:  0.17074823379516602
+  cam_pose shape torch.Size([1, 4, 4])
+---------------------ray_tracer
+Time taken for get_sphere_intersection:  0.001051187515258789
+Time taken for sphere_tracing:  0.0016283988952636719
+Time taken for 初始化采样点:  0.0007140636444091797
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+Time taken for 处理非收敛光线:  30.36331844329834
+Time taken for 处理最小SDF值:  0.005626201629638672
+Time taken for ray_sampler:  30.369693756103516
+Time taken for ray_tracer:  30.373178243637085
+pnts_c shape after deformer :  torch.Size([30000, 3, 3])
+sdf shape: torch.Size([30000, 3])
+mask shape:  torch.Size([30000, 3])
+index shape:  torch.Size([30000])
+Time taken for query_sdf:  0.345578670501709
+Time taken for deformer_network.query_weights:  0.0002560615539550781
+Time taken for get_rbg_value:  0.3825373649597168
+Time taken for knn_points:  0.0005979537963867188
+  cam_pose shape torch.Size([1, 4, 4])
+---------------------ray_tracer
+Time taken for get_sphere_intersection:  0.00036716461181640625
+Time taken for sphere_tracing:  0.0005691051483154297
+Time taken for 初始化采样点:  0.00020122528076171875
+pnts_c shape after deformer :  torch.Size([300000, 3, 3])
+sdf shape: torch.Size([300000, 3])
+mask shape:  torch.Size([300000, 3])
+index shape:  torch.Size([300000])
+pnts_c shape after deformer :  torch.Size([253600, 3, 3])
+sdf shape: torch.Size([253600, 3])
+mask shape:  torch.Size([253600, 3])
+index shape:  torch.Size([253600])
+Time taken for 处理非收敛光线:  5.099342107772827
+Time taken for 处理最小SDF值:  0.0016722679138183594
+Time taken for ray_sampler:  5.101244688034058
+Time taken for ray_tracer:  5.10261869430542
+pnts_c shape after deformer :  torch.Size([5536, 3, 3])
+sdf shape: torch.Size([5536, 3])
+mask shape:  torch.Size([5536, 3])
+index shape:  torch.Size([5536])
+Time taken for query_sdf:  0.05453848838806152
+Time taken for deformer_network.query_weights:  0.00028514862060546875
+Time taken for get_rbg_value:  0.3256394863128662
+Time taken for knn_points:  0.0006117820739746094
+Saving image 276 into ../data/experiments/yufeng/IMavatar/MVI_1810/eval/MVI_1810/epoch_0
+Depth out of range, min: -0.26266616582870483 and max: -0.20479854941368103
+Plot time per image: 75.46610522270203
+10
+  cam_pose shape torch.Size([1, 4, 4])
+---------------------ray_tracer
+Time taken for get_sphere_intersection:  0.00035881996154785156
+Time taken for sphere_tracing:  0.0003948211669921875
+Time taken for 初始化采样点:  0.0001468658447265625

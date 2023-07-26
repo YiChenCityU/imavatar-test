@@ -1,0 +1,9 @@
+setup.py
+/media/eason/edge/NeRF/IMavatar/code/gridencoder/src/bindings.cpp
+/media/eason/edge/NeRF/IMavatar/code/gridencoder/src/gridencoder.cu
+/media/eason/edge/NeRF/INSTA-pytorch/gridencoder/src/bindings.cpp
+/media/eason/edge/NeRF/INSTA-pytorch/gridencoder/src/gridencoder.cu
+gridencoder.egg-info/PKG-INFO
+gridencoder.egg-info/SOURCES.txt
+gridencoder.egg-info/dependency_links.txt
+gridencoder.egg-info/top_level.txt
